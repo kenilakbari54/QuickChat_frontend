@@ -276,6 +276,10 @@ const Form = () => {
                 ? "Don't have an account? Sign Up here."
                 : 'Already have an account? Login here.'}
             </Typography>
+            <br/>
+            <br/>
+            <br/>
+            <h3>©2023 QuickChat from Aimesr Infotech</h3>
           </Box>
         </form>
       )}
