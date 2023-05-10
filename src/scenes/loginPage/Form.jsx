@@ -258,7 +258,7 @@ const Form = () => {
             >
               {isLogin ? 'LOGIN' : 'REGISTER'}
             </Button>
-            <Typography
+          <h3>  <Typography
               onClick={() => {
                 setPageType(isLogin ? 'register' : 'login');
                 resetForm();
@@ -275,11 +275,11 @@ const Form = () => {
               {isLogin
                 ? "Don't have an account? Sign Up here."
                 : 'Already have an account? Login here.'}
-            </Typography>
+            </Typography></h3>
             <br/>
             <br/>
             <br/>
-            <h3>©2023 QuickChat from Aimesr Infotech</h3>
+            <h3>©2023 QuickChat from Aimers Infotech</h3>
           </Box>
         </form>
       )}
